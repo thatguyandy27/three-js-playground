@@ -1,0 +1,41 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+}
+
+body {
+  font-size: 13px;
+  line-height: 20px;
+  margin: 0px;
+  height: 100%;
+}
+
+#root{
+    height: 100%;
+}
+
+.app{
+    display: flex;
+    height: 100%;
+}
+
+.navContainer{
+    width:300px;
+    height: 100%;
+    border-right: 1px solid #cccccc;
+}
+
+.mainContent{
+    flex-grow: 1;
+    padding: 10px;
+}
+
+#hello-world-webgl-container{
+  height:700px;
+  width:1050px;
+}
+
+.webgl-container{
+  height:700px;
+  width:1050px;
+}
